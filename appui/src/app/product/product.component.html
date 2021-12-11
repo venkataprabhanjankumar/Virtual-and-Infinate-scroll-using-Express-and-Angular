@@ -1,0 +1,19 @@
+<div style="padding-left: 5%;padding-top: 5%">
+      <div class="card">
+          <img src="{{product.image}}" style="width: 100%">
+          <br>
+          <h3>Product Name: {{product.title}}</h3>
+          <br>
+          <p class="price"> Product Price : {{product.price}}</p>
+          <br>
+          <p class="price"> Product Description : {{product.description}}</p>
+          <br>
+          <p class="price"> Product Category : {{product.category}}</p>
+          <br>
+          <p class="price"> Product Rating : {{product.rating.rate}}</p>
+          <br>
+          <a href="/product/{{product.id}}"><button type="button">Add to Cart</button></a>
+          <br>
+          <a href="/products"><button type="button">Back To Products</button></a>
+      </div>
+</div>
